@@ -11,11 +11,11 @@ Model evaluation: split the data 85/15 into training and test sets, then trained
 
 Key results
 
-sqft_living alone: R² = [your value]
-Multiple linear regression (11 features): R² = [your value]
-Polynomial pipeline: R² = [your value]
-Ridge regression (test set): R² = [your value]
-Polynomial Ridge (test set): R² = [your value]
+sqft_living alone: R² = 0.4929
+Multiple linear regression (11 features): R² = 0.6577
+Polynomial pipeline (scale → polynomial → linear): R² = 0.7512
+Ridge regression (test set): R² = 0.6479
+Polynomial Ridge (test set): R² = 0.7003
 
 Tools: Python, pandas, NumPy, Matplotlib, seaborn, scikit-learn, Jupyter Notebook
 
